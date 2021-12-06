@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13075" started-at="2021-12-03T04:35:04Z" finished-at="2021-12-03T04:35:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13075" started-at="2021-12-03T04:35:04Z" finished-at="2021-12-03T04:35:17Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:test.LoginTest@3dfc5fb8]" name="ReportSetup" is-config="true" duration-ms="620" started-at="2021-12-03T04:35:04Z" finished-at="2021-12-03T04:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@3dfc5fb8]" name="setup" is-config="true" duration-ms="1529" started-at="2021-12-03T04:35:05Z" finished-at="2021-12-03T04:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ExcelTest()[pri:0, instance:test.LoginTest@3dfc5fb8]" name="ExcelTest" duration-ms="2339" started-at="2021-12-03T04:35:06Z" finished-at="2021-12-03T04:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcelTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LoginTest@3dfc5fb8]" name="teardown" is-config="true" duration-ms="71" started-at="2021-12-03T04:35:09Z" finished-at="2021-12-03T04:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@3dfc5fb8]" name="setup" is-config="true" duration-ms="1122" started-at="2021-12-03T04:35:09Z" finished-at="2021-12-03T04:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NegativeLogin(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@3dfc5fb8]" name="NegativeLogin" duration-ms="3313" started-at="2021-12-03T04:35:10Z" finished-at="2021-12-03T04:35:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@def.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JG@3xfzn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LoginTest@3dfc5fb8]" name="teardown" is-config="true" duration-ms="71" started-at="2021-12-03T04:35:13Z" finished-at="2021-12-03T04:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@3dfc5fb8]" name="setup" is-config="true" duration-ms="1159" started-at="2021-12-03T04:35:13Z" finished-at="2021-12-03T04:35:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="positiveLogin(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@3dfc5fb8]" name="positiveLogin" duration-ms="2556" started-at="2021-12-03T04:35:14Z" finished-at="2021-12-03T04:35:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@def.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JG@3xfzn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LoginTest@3dfc5fb8]" name="teardown" is-config="true" duration-ms="68" started-at="2021-12-03T04:35:17Z" finished-at="2021-12-03T04:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="ReportTearDown()[pri:0, instance:test.LoginTest@3dfc5fb8]" name="ReportTearDown" is-config="true" duration-ms="214" started-at="2021-12-03T04:35:17Z" finished-at="2021-12-03T04:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
